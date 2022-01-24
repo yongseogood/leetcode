@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool detectCapitalUse(string word) {
-        
         bool allCap {true};
         for(int i = 0; i < word.size(); ++i)
         {
